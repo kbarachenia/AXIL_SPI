@@ -1,0 +1,1 @@
+set_clock_groups -name cdc_async -asynchronous -group [get_clocks s_axi_aclk] -group [get_clocks iclk]
